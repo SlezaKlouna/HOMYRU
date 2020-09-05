@@ -1,0 +1,4 @@
+@mixin link{
+  color: $linkColor;
+  border-bottom: 1px dashed $linkColor;
+}
