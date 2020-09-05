@@ -22,7 +22,7 @@ body{
 }
 
 .wrapper{
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   color: $mainColorText;
 }
@@ -106,6 +106,7 @@ body{
 .location{
   font-size: $paragraphSize;
   font-weight: 300;
+  margin-bottom: 25px;
 
   a{
     @include link;
@@ -116,7 +117,7 @@ body{
   text-transform: uppercase;
   font-weight: 100;
   font-size: 46px;
-  padding-top: 25px;
+  color: $mainColorText;
 
   .logo-span{
     font-weight: 300;
@@ -411,7 +412,7 @@ body{
 
 .slider-subtitle{
   width: 70%;
-  font-size: 16px;
+  font-size: 15px;
   padding: 15px 40px;
   font-style: italic;
   background-color: $decorationColor;
@@ -430,7 +431,7 @@ body{
 
 .slider{
   width: 70%;
-  height: 60vh;
+  height: 70vh;
   background-image: url(../img/slider-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -473,7 +474,7 @@ body{
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 140% 20px;
+  background-position: 180% 40px;
 }
 
 #first-slide, #second-slide, #third-slide, #fourth-slide{
